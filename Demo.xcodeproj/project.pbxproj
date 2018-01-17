@@ -14,6 +14,7 @@
 		8A7FC727200741D1001C8607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A7FC725200741D1001C8607 /* LaunchScreen.storyboard */; };
 		8A7FC732200741D2001C8607 /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7FC731200741D2001C8607 /* DemoTests.swift */; };
 		8A7FC73D200741D2001C8607 /* DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7FC73C200741D2001C8607 /* DemoUITests.swift */; };
+		8A7FC74B200E261C001C8607 /* appLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8A7FC74A200E261C001C8607 /* appLogo.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8A7FC738200741D2001C8607 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7FC73C200741D2001C8607 /* DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITests.swift; sourceTree = "<group>"; };
 		8A7FC73E200741D2001C8607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A7FC74A200E261C001C8607 /* appLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appLogo.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				8A7FC723200741D1001C8607 /* Assets.xcassets */,
 				8A7FC725200741D1001C8607 /* LaunchScreen.storyboard */,
 				8A7FC728200741D1001C8607 /* Info.plist */,
+				8A7FC74A200E261C001C8607 /* appLogo.jpg */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					8A7FC718200741D0001C8607 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7E2Z9A8GGF;
 						ProvisioningStyle = Automatic;
 					};
 					8A7FC72C200741D2001C8607 = {
@@ -232,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A7FC74B200E261C001C8607 /* appLogo.jpg in Resources */,
 				8A7FC727200741D1001C8607 /* LaunchScreen.storyboard in Resources */,
 				8A7FC724200741D1001C8607 /* Assets.xcassets in Resources */,
 				8A7FC722200741D1001C8607 /* Main.storyboard in Resources */,
@@ -412,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7E2Z9A8GGF;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kayosys.Demo;
@@ -424,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7E2Z9A8GGF;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kayosys.Demo;
@@ -505,6 +512,7 @@
 				8A7FC743200741D2001C8607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A7FC744200741D2001C8607 /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +521,7 @@
 				8A7FC746200741D2001C8607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A7FC747200741D2001C8607 /* Build configuration list for PBXNativeTarget "DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +530,7 @@
 				8A7FC749200741D2001C8607 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
